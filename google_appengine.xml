@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>google_appengine</name>
+		<description>Wrapper for the google app engine.</description>
+		<homepage>https://github.com/MichaelOVertolli/GAE-Overlay</homepage>
+		<owner>
+			<email>michaelvertolli@gmail.com</email>
+		</owner>
+		<source type="git">https://github.com/MichaelOVertolli/GAE-Overlay.git</source>
+	</repo>
+</repositories>
