@@ -4,7 +4,7 @@
 
 EAPI=6
 
-DESCRIPTION="Wrapper for google app-engine."
+DESCRIPTION="Wrapper for the python google app-engine."
 SLOT="0"
 SRC_URI="https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.34.zip"
 
