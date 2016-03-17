@@ -4,7 +4,7 @@ Gentoo Overlay for the Python Google App Engine.
 For details about GAE, visit https://cloud.google.com/appengine/docs
 
 ## Installation
-To install the overlay, input:
+To install the overlay (requires app-portage/layman), input:
 ```bash
 layman -o https://raw.githubusercontent.com/MichaelOVertolli/GAE-Overlay/master/google_appengine.xml -f -a google_appengine
 ```
