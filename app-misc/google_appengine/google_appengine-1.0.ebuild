@@ -33,3 +33,4 @@ pkg_postrm() {
 	if [ -e /etc/env.d/98google_appengine ]; then
 	     	rm /etc/env.d/98google_appengine
 	fi
+}
