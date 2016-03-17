@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 
-<repositories version="1.0">
+<repositories encoding="UTF-8" version="1.0">
 	<repo priority="50" quality="experimental" status="unofficial">
-		<name>google_appengine</name>
+		<name>google-appengine</name>
 		<description>Wrapper for the google app engine.</description>
 		<homepage>https://github.com/MichaelOVertolli/GAE-Overlay</homepage>
 		<owner>
