@@ -23,5 +23,13 @@ src_unpack() {
 src_install() {
 	dodir ${ROOT}/usr/share/google_appengine/
 	cp -R "${S}/" "${D}/usr/share/" || die "Install failed!"
-	doenvd ${FILESDIR}/98google_appengine
+	if [ -e /etc/env.d/98google_appengine ]
+	     	then newenvd /etc/env.d/98google_appengine ${FILESDIR}/98google_appengine
+		else doenvd ${FILESDIR}/98google_appengine
+	fi
 }
+
+pkg_postrm() {
+	if [ -e /etc/env.d/98google_appengine ]; then
+	     	rm /etc/env.d/98google_appengine
+	fi
