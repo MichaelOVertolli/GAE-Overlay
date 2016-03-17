@@ -14,4 +14,9 @@ You can then emerge the file with:
 emerge -a google_appengine
 ```
 
+Then update your path environment with:
+```bash
+env-update && source /etc/profile
+```
+
 The ebuild requires app-archive/unzip and ~amd64 set.
